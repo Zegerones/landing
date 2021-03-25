@@ -14,7 +14,7 @@ body{
     flex-flow:row wrap-reverse;
     align-items: baseline;
 }
-.menu{
+.navbar__menu{
     display: inline-block;
     background-color: #2d9a8a;
     color:black;
@@ -22,7 +22,7 @@ body{
     padding: 10px;
     text-decoration: none;
 }
-.menu:hover{
+.navbar__menu:hover{
     background: #0cc0a5;
 }
 .navbar{
@@ -32,7 +32,7 @@ body{
     justify-content: space-around;
 }
 .occupation{
-    background: #2d9a8a;
+    background: #4bb3a3;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@ footer{
     text-align: center;
 }
 @media(max-width:800px){
-    .principal{
+    .navbar{
         flex-direction: column;
     }
     .banner{
