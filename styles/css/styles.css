@@ -25,7 +25,7 @@ body{
 .menu:hover{
     background: #0cc0a5;
 }
-.principal{
+.navbar{
     background: #2d9a8a;
     padding: 10px;
     display: flex;
